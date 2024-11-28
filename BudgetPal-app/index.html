@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BudgetPal App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1> BudgetPal App</h1>
+    </header>
+
+    <main>
+      <!-- Income & Budget Section -->
+      <section id="income-section">
+        <h2>Income & Budget Management</h2>
+            <form id="income-form">
+              <label for="income">Income:</label>
+              <input type="number" id="income" placeholder="Enter income" required>
+              <label for="income-currency">Currency:</label>
+              <select id="income-currency">
+                <option value="RWF">RWF</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+              </select>
+          
+              <label for="budget">Budget:</label>
+              <input type="number" id="budget" placeholder="Enter budget" required>
+              <label for="budget-currency">Currency:</label>
+              <select id="budget-currency">
+                <option value="RWF">RWF</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+              </select>
+          
+              <button type="submit">Calculate Savings</button>
+            </form>
+            <h3 id="savings-amount">Remaining: 0 RWF</h3>
+            <div id="investment-recommendations"></div>
+          </section>
+          
+
+      <!-- Add Expense Section -->
+      <section id="add-expense">
+        <h2>Add an Expense</h2>
+        <form id="expense-form">
+          <label for="expense-name">Expense Name</label>
+          <input type="text" id="expense-name" placeholder="Enter expense name" required>
+          
+          <label for="expense-amount">Amount</label>
+          <input type="number" id="expense-amount" placeholder="Enter amount" min="0" required>
+          
+          <label for="currency">Currency</label>
+          <select id="currency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="RWF">RWF</option>
+          </select>
+          
+          <button type="submit">Add Expense</button>
+        </form>
+      </section>
+
+      <!-- Expense List Section -->
+      <section id="expense-list">
+        <h2>Expense List</h2>
+        <ul id="expenses"></ul>
+      </section>
+
+      <!-- Total Section -->
+      <section id="total">
+        <h2>Total: <span id="total-amount">0</span> RWF</h2>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
