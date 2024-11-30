@@ -43,11 +43,13 @@ The app utilizes the following :
 4. vi index.html
 
 ## Usage
-⚖️Income & Budget Management
+⚖️Income & Budget Management:
+
 Enter your income in any currency provided and then input your budget in any currency.
 click on the calculate savings button to obtain savings according to the info provided and an additional investment plan.
 
-💳Expense tracking
+💳Expense tracking: 
+
 Enter expense name
 Enter amount and currency
 click on add expense
@@ -66,5 +68,7 @@ I configured my nginx i git bash for etc/nginx/sites-available/default
 I tested it using sudo nginx -t 
 
 ## Credits/acknowledgement
-API:[Exchange-rate api web](https://www.exchangerate-api.com/)
+
+API:[Exchange-rate api web](https://www.exchangerate-api.com/).
+
 Postman for API endpoints
