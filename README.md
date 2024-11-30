@@ -3,7 +3,7 @@
 A user-friendly budgeting app called budgetpal designed to help users manage their finances, track expenses, savings, and investments. This app leverages modern web technologies and integrates external APIs to provide real-time foreign exchange data,  presented in an interactive and clean interface.
 
 ---
-[icecoldcoding.tech](https://icecoldcoding.tech)
+Click this link to access my web-app[icecoldcoding.tech](https://icecoldcoding.tech)
 ## Features 🚀
 - 🏙️ **Track Expenses**: track your daily, weekly, or monthly expenses.
 - 💰 **Calculation of total income and budget management**: Set goals for your savings and track progress.
