@@ -60,6 +60,7 @@ If you have another expense re do the above and then add the expense to calculat
 💰 Addition of an investment api to offer stock market and investment opportunities for example in real estate and other opportunities.
 🏦 Allow users to set recurring expenses (e.g., subscriptions, rent) and manage them automatically.
 📈 Investment Portfolio to Track user s' investments and display real-time performance.
+💻 Login page
 
 ## Deployment
 This app was deployed on both of my web-01 and web-02 servers with the loadbalancer controlling the traffick.
