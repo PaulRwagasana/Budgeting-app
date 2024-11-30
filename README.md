@@ -66,7 +66,7 @@ This app was deployed on both of my web-01 and web-02 servers with the loadbalan
 
 I uploaded the files in both my web-01 and web-02 in /var/www/Budgeting-app.
 
-I configured my nginx i git bash for etc/nginx/sites-available/default.
+I configured my nginx in git bash for etc/nginx/sites-available/default.
 
 I tested it using sudo nginx -t .
 
