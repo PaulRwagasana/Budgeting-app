@@ -62,13 +62,16 @@ If you have another expense re do the above and then add the expense to calculat
 📈 Investment Portfolio to Track user s' investments and display real-time performance.
 
 ## Deployment
-This app was deployed on both of my web-01 and web-02 servers with the loadbalancer controlling the traffick
-I uploaded the files in both my web-01 and web-02 in /var/www/Budgeting-app
-I configured my nginx i git bash for etc/nginx/sites-available/default
-I tested it using sudo nginx -t 
+This app was deployed on both of my web-01 and web-02 servers with the loadbalancer controlling the traffick.
+
+I uploaded the files in both my web-01 and web-02 in /var/www/Budgeting-app.
+
+I configured my nginx i git bash for etc/nginx/sites-available/default.
+
+I tested it using sudo nginx -t .
 
 ## Credits/acknowledgement👊🏿
 
 API:[Exchange-rate api web](https://www.exchangerate-api.com/).
 
-Postman for API endpoints
+Postman for API endpoints.
